@@ -1,12 +1,74 @@
 body {
-    font-family: Papyrus, Arial, Helvetica, sans-serif;
-  }
-
-h1 {
-    background-color: rgb(98, 131, 131);
-    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: rgba(123, 214, 247, 0.5);
 }
 
-h2 {
-    background-color: rgb(245, 202, 10);
+.card {
+    background-color: rgb(140, 204, 228, 0.5);
+    max-width: 960px;
+    height: 1080px;
+    margin: 1em auto;
+    padding: 1em;
+}
+/* 
+.title-head {
+    display: inline;
+    background-color: aquamarine;
+    height: auto;
+    width: 5em;
+} */
+
+.title {
+    /* display: inline-block; */
+    text-align: center;
+    color: yellow;
+    background-color: rgb(222, 255, 254, 0.5);
+    font-size: 4em;
+}
+
+/* .title-imageL,
+.title-imageR {
+    height: auto;
+    width: 2em;
+    margin: 0 3em;
+} */
+
+.title-imageL {
+    height: auto;
+    width: 1em;
+    margin-left: 1em;
+    float: left;
+}
+
+.title-imageR {
+    height: auto;
+    width: 1em;
+    margin-right: 1em;
+    float: right;
+}
+
+.navbar {
+    background-color: rgb(98, 131, 131);
+    color: yellow;
+    margin: 1em auto;
+    text-align: center;
+    padding: 1em;
+}
+.recipe {
+    display: inline;
+    margin: 1em auto;
+    padding: 1em auto;
+}
+
+button {
+    background-color: azure;
+    color: aliceblue;
+    padding: 1em;
+    margin: 1em 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button :hover {
+    background-color: aqua;
 }
